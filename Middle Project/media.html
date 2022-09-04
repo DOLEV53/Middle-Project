@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+    <!-- favicon -->
+    <link rel="icon" type="image" href="./img/general-cjQAi-2021.02.08.08.09.59-logo2021.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/media.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="./js/media.js" defer></script>
+</head>
+
+
+<body>
+  <!-- navbar -->
+  
+  <nav class="navbar navbar-expand-lg my_nav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/homePage.html?">
+        <img src="./img/xlogo.png.pagespeed.ic.q4Fw8Vll14.webp" id="brand_img" alt="" width="220" height="74"
+          class="d-inline-block align-text-top">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon">test</span> -->
+      </button>
+  
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item" id="id_home">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/homePage.html?">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/media.html">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item" id="id_t">
+            <a class="nav-link" href="http://127.0.0.1:5500/triviaEnter.html" id="id_trivia">Mardi Gras Trivia
+            </a>
+          </li>
+        </ul>
+  
+      </div>
+    </div>
+  </nav>
+
+
+
+<!-- nav bar responsive -->
+
+<nav class="navbar  fixed-top rNav" style="background-color: bisque;">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="http://127.0.0.1:5500/homePage.html?">
+      <img src="./img/xlogo.png.pagespeed.ic.q4Fw8Vll14.webp" id="brand_img" alt="" width="220" height="74"
+        class="d-inline-block align-text-top">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+      aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+      style="background-color:bisque; width: 100%; ">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">menu</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/homePage.html?">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/media.html">Media</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/contact.html">Contact
+              Us</a>
+          </li>
+          <li class="nav-item" id="id_t">
+            <a class="nav-link" href="http://127.0.0.1:5500/triviaEnter.html" id="id_trivia">Mardi Gras
+              Trivia
+            </a>
+          </li>
+          </form>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+  
+<!-- lightbox images -->
+
+<!-- Images used to open the lightbox -->
+
+<div id="id_v">Enjoy some of our favorite fhotos  from Mardi Gras. You can also watch fhotos footage from years past.
+  For more fhotos, visit our
+  <span class="id_y">Facebook Page</span> below.
+</div>
+
+
+<div class="row">
+  <div class="column">
+    <img src="./img/pic_2.avif" onclick="openModal();currentSlide(1)" class="hover-shadow" >
+  </div>
+  <div class="column">
+    <img src="./img/pic_3.avif" onclick="openModal();currentSlide(2)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_4.avif" onclick="openModal();currentSlide(3)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_5.avif" onclick="openModal();currentSlide(4)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_6.avif" onclick="openModal();currentSlide(5)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_7.avif" onclick="openModal();currentSlide(6)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_8.avif" onclick="openModal();currentSlide(7)" class="hover-shadow">
+  </div>
+  <div class="column">
+    <img src="./img/pic_9.avif" onclick="openModal();currentSlide(8)" class="hover-shadow" >
+  </div>
+  <div class="column">
+    <img src="./img/pic_10.avif" onclick="openModal();currentSlide(9)" class="hover-shadow" >
+  </div>
+  <div class="column">
+    <img src="./img/pic_11.avif" onclick="openModal();currentSlide(10)" class="hover-shadow" >
+  </div>
+  <div class="column">
+    <img src="./img/pic_12.avif" onclick="openModal();currentSlide(11)" class="hover-shadow"
+      >
+  </div>
+  <div class="column">
+    <img src="./img/pic_13.avif" onclick="openModal();currentSlide(12)" class="hover-shadow">
+  </div>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor closeb" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 12</div>
+      <img src="./img/pic_2.avif" style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 12</div>
+      <img src="./img/pic_3.avif" style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 12</div>
+      <img src="./img/pic_4.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 12</div>
+      <img src="./img/pic_5.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 12</div>
+      <img src="./img/pic_6.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 12</div>
+      <img src="./img/pic_7.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 12</div>
+      <img src="./img/pic_8.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 12</div>
+      <img src="./img/pic_9.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 12</div>
+      <img src="./img/pic_10.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">10 / 12</div>
+      <img src="./img/pic_11.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">11 / 12</div>
+      <img src="./img/pic_12.avif" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">12 / 12</div>
+      <img src="./img/pic_13.avif" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    
+    <div id="root">
+
+    <div class="column ">
+      <img class="demo " src="./img/pic_2.avif" onclick="currentSlide(1)" alt="Parade Time" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_3.avif" onclick="currentSlide(2)" alt="Brown and green wall decor " style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_4.avif" onclick="currentSlide(3)" alt="Woman in purple and gold dress with gold crown" style="width:83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_5.avif" onclick="currentSlide(4)" alt="Woman in green hijab long sleeve dress" style="width: 83px; height: 50px;">
+    </div>
+    
+    <div class="column">
+      <img class="demo" src="./img/pic_6.avif" onclick="currentSlide(5)" alt="Two topless men performing " style="width: 83px; height: 50px;">
+    </div>
+    
+    <div class="column">
+      <img class="demo" src="./img/pic_7.avif" onclick="currentSlide(6)" alt="Man in white and gold mask" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_8.avif" onclick="currentSlide(7)" alt="Men in black and white costume" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_9.avif" onclick="currentSlide(8)" alt="Woman wearing gold colored accessories and face paint" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_10.avif" onclick="currentSlide(9)" alt="Person wearing white and gray mask" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_11.avif" onclick="currentSlide(10)" alt="Child in gold and silver mask" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_12.avif" onclick="currentSlide(11)" alt="Woman in blue and yellow dress with blue and white feather headdress" style="width: 83px; height: 50px;">
+    </div>
+
+    <div class="column">
+      <img class="demo" src="./img/pic_13.avif" onclick="currentSlide(12)" alt="Pink and white feather mask" style="width: 83px; height: 50px;">
+    </div>
+
+  </div>
+
+  </div>
+</div>
+
+
+<!-- video -->
+
+<div id="id_s">Enjoy some of our favorite video clips from Mardi Gras. You can also watch video footage from years past. For more videos, visit our
+<span class="id_x">YouTube Channel</span> below.
+</div>
+
+<div id="id_videos">
+
+<iframe src="https://www.youtube.com/embed/C8mJ2C2cbd0" title="YouTube video player"
+  frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen class="ifarmes embed-responsive-item-4by3"></iframe>
+
+    
+<iframe src="https://www.youtube.com/embed/VVMGK4RRuOM" title="YouTube video player"
+  frameborder="100" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen class="ifarmes"></iframe>
+
+
+<iframe src="https://www.youtube.com/embed/IyNC72zZbdo" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen class="ifarmes"></iframe>
+
+
+<iframe src="https://www.youtube.com/embed/NiPvLLjTnE0" title="YouTube video player"
+  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen class="ifarmes"></iframe>
+
+
+  <iframe src="https://www.youtube.com/embed/DVKl-QEEL3w" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen class="ifarmes"></iframe>
+
+
+    <iframe src="https://www.youtube.com/embed/0f_PsxOZNFg" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen class="ifarmes"></iframe>
+
+
+    <iframe src="https://www.youtube.com/embed/7J3ZKkmQxEE" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen class="ifarmes"></iframe>
+
+    <iframe src="https://www.youtube.com/embed/EkIZwXbSh-Y" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen class="ifarmes"></iframe>
+
+
+    <iframe src="https://www.youtube.com/embed/7i_0sUjBGdg" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen class="ifarmes"></iframe>
+
+
+    </div>
+
+  <!-- footer -->
+  <footer class="bottom">
+    <div class="find_us">
+      <a href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank" class="fa fa-facebook"></a>
+      <a href="https://twitter.com/MardiGrasNOLA" target="_blank" class="fa fa-twitter"></a>
+      <a href="https://www.instagram.com/mardigrasneworleans/" target="_blank" class="fa fa-instagram"></a>
+      <a href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q" target="_blank" class="fa fa-youtube"></a>
+    </div>
+  
+    <div class="footer-content">
+  
+      <div class="footer-bottom">
+        <p>copyrighat &copy; 2022 codeOpacity. designed by <span>Dolev B</span></p>
+      </div>
+  
+    </div>
+  </footer>
+
+</body>
+</html>

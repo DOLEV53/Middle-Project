@@ -1,0 +1,327 @@
+body {
+    background-image: url('../img/pic_1.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+/* nav bar  */
+
+
+.collapse {
+
+    margin-left: 325px;
+
+}
+
+.nav-item {
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navbar-brand {
+
+    margin-left: 20px;
+}
+
+#id_home {
+
+    font-weight: bold;
+
+}
+
+#id_t {
+
+    margin-left: 300px;
+
+}
+
+#id_trivia {
+
+    font-size: 25px;
+    color: #9453a6;
+    font-weight: bold;
+    text-shadow: -1px -1px 1px rgba(255, 255, 255, .1), 1px 1px 1px rgba(0, 0, 0, .5);
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            #231557 0%,
+            #44107a 29%,
+            #ff1361 67%,
+            #fff800 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+
+/* accordion */
+#id_mardi {
+   font-family: 'Pattaya'; 
+   font-size: 30px;
+   font-weight: bold;
+   width: 700px;
+   margin: 0 auto;
+   margin-top: 50px;
+}
+
+#id_gras {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    width: 900px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#id_contact {
+
+    color: #000;
+}
+
+
+.container {
+
+    width: 800px;
+    margin-top: 100px;
+
+}
+
+.accordion {
+    background-color: antiquewhite;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+     font-family: 'Roboto', sans-serif; 
+     font-weight: bold;
+     border-radius: 5px;
+    transition: 0.4s;
+    
+}
+
+
+.accordion:hover {
+    background-color:#f2cc0f;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+
+.panel {
+    padding: 0 18px;
+    background-color: #f2f2f2;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+/* footer */
+footer {
+
+    background-color: #000;
+    height: 150px;
+
+    margin-top: 500px;
+    color: #fff;
+
+}
+
+.footer-contect {
+
+    text-align: center;
+
+}
+
+.find_us {
+
+    text-align: center;
+    padding-top: 40px;
+
+}
+
+.fa {
+
+    padding-top: 15px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: #000;
+    background-color: #f2f2f2;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #9453a6;
+    color: white;
+}
+
+
+
+.footer-bottom {
+
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+.footer-bottom p {
+
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+
+
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+.my_nav {
+    background-color: #fdf8e5;
+
+}
+
+#brand_img {
+    transition: transform 1s;
+}
+
+#brand_img:hover {
+    transform: translateX(10px);
+    filter: brightness(1.75);
+}
+
+
+.rNav {
+
+    display: none;
+}
+
+/* רספונסיביות */
+
+@media screen and (max-width: 728px) {
+
+    body {
+
+        width: 100%;
+    }
+
+
+   .my_nav {
+
+       display: none;
+
+   }
+
+   .rNav {
+
+       display: block;
+      
+   }
+
+   #id_trivia {
+
+       font-size: 20px;
+       margin-left: -300px;
+
+   }
+
+   #id_mardi {
+
+    width: 300px;
+    font-size: 20px;
+    margin-top:150px;
+   }
+
+   #id_gras {
+
+    width: 300px;
+    font-size: 10px;
+   }
+
+   .container {
+
+    width: 300px;
+    margin-bottom: -250px;
+     
+   }
+
+   .accordion {
+
+    font-size: 12px;
+   }
+  
+   .panel {
+
+    font-size: 10px;
+   }
+
+
+  
+
+}

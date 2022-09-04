@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <!-- favicon -->
+    <link rel="icon" type="image" href="./img/general-cjQAi-2021.02.08.08.09.59-logo2021.png">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/homePage.css">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+    <script src="./js/homePage.js" defer></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    
+     <nav class="navbar navbar-expand-lg my_nav"> 
+        <div class="container-fluid"> 
+             <a class="navbar-brand" href="http://127.0.0.1:5500/homePage.html?"> 
+                <img src="./img/xlogo.png.pagespeed.ic.q4Fw8Vll14.webp" id="brand_img" alt="" 
+                     class="d-inline-block align-text-top"> 
+             </a> 
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item" id="id_home">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/homePage.html?">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="http://127.0.0.1:5500/contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item" id="id_t">
+                        <a class="nav-link" href="http://127.0.0.1:5500/triviaEnter.html"   id="id_trivia">Mardi Gras Trivia </a>
+                    </li>
+                </ul>
+             
+            </div>
+        </div>
+    </nav>
+
+   
+
+<!-- nav bar responsive -->
+
+<nav class="navbar  fixed-top rNav" style="background-color: bisque;">
+    <div class="container-fluid">
+
+        <a class="navbar-brand" href="http://127.0.0.1:5500/homePage.html?">
+            <img src="./img/xlogo.png.pagespeed.ic.q4Fw8Vll14.webp" id="brand_img" alt="" width="220" height="74"
+                class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel"
+            style="background-color:bisque ;">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="color:#000;font-family: 'Roboto', sans-serif; ">menu</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page"
+                            href="http://127.0.0.1:5500/homePage.html?">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/media.html">Media</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/FAQ.html">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="http://127.0.0.1:5500/contact.html">Contact
+                            Us</a>
+                    </li>
+                    <li class="nav-item" id="id_t">
+                        <a class="nav-link" href="http://127.0.0.1:5500/triviaEnter.html" id="id_trivia">Mardi Gras
+                            Trivia
+                        </a>
+                    </li>
+                    </form>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+
+<!-- img responsive -->
+
+<img src="./img/pic_20.webp" alt="festival mardi gras" class="div_img_f">
+
+<!-- slider  -->
+
+<div id="carouselExampleCaptions" class="carousel slide sliders" data-bs-ride="false">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"        aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"     aria-label="Slide 5"></button> 
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="./img/pic_15.avif" class="d-block w-100 "  alt="woman dancing">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Woman in green & pink costume dancing</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/pic_16.avif" class="d-block w-100 " alt="tractor in prade">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Person riding on tractor surroundede by peoples</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/pic_17.avif" class="d-block w-100 " alt="woman holding umbrella">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Woman in purple and white dress holding umbrella</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/pic_18.avif" class="d-block w-100 " alt="traditional dress">
+            <div class="carousel-caption d-none d-md-block">
+                <h5 style="color:#000 ;">People wearing traditional dress standing on the street</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="./img/pic_19.avif" class="d-block w-100" alt="green gras">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Purple and green flowers on green grass</h5>
+                
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+
+<!-- about the holiday -->
+
+<div class="holiday">
+
+<p><strong> The holiday of Mardi Gras</strong> is celebrated in all of Louisiana, including the city of New Orleans. Celebrations are
+concentrated for about two weeks before and through Shrove Tuesday, the day before Ash Wednesday (the start of lent in
+the Western Christian tradition). Usually there is one major parade each day (weather permitting); many days have
+several large parades. The largest and most elaborate parades take place the last five days of the Mardi Gras season. In
+the final week, many events occur throughout New Orleans and surrounding communities, including parades and balls (some
+of them masquerade balls).</p>
+
+<p><strong> The parades in New Orleans</strong> are organized by social clubs known as krewes; most follow the same parade schedule and route
+each year. The earliest-established krewes were the Mistick Krewe of Comus, the earliest, Rex, the Knights of Momus and
+the Krewe of Proteus. Several modern "super krewes" are well known for holding large parades and events (often featuring
+celebrity guests), such as the Krewe of Endymion, the Krewe of Bacchus, as well as the Zulu Social Aid & Pleasure Club—a
+predominantly African American krewe. Float riders traditionally toss throws into the crowds. The most common throws are
+strings of colorful plastic beads, doubloons, decorated plastic "throw cups", Moon Pies, and small inexpensive toys.
+Major krewes follow the same parade schedule and route each year.</p>
+
+<p> While many tourists center their <strong> Carnival season activities on Bourbon Street</strong>, major parades originate in the Uptown and
+Mid-City districts and follow a route along St. Charles Avenue and Canal Street, on the upriver side of the French
+Quarter. Walking parades - most notably the Krewe du Vieux and Chewbacchus - also take place downtown in the Faubourg
+Marigny and French Quarter in the weekends preceding Mardi Gras day. Mardi Gras day traditionally concludes with the
+"Meeting of the Courts" between Rex and Comus.</p>
+
+</div>
+
+
+
+
+<!-- cards -->
+
+<div id="id_cards">
+
+
+<div class="card first_cards" >
+    <img src="./img/Walk-Ons-Restaurant.webp" class="card-img-top" alt="restaurant">
+    <div class="card-body">
+        <h4 class="card-title">Walk-On's Bistreaux and Bar</h4>
+        <p class="card-text">There is really no better way to describe the uniqueness of Walk-On is Sports Bistreaux. We start every dish from scratch
+        and use fresh ingredients. </p>
+        <a href="https://walk-ons.com/" target="_blank" class="btn btn-dark btn_1">For more information...</a>
+    </div>
+</div>
+
+
+<div class="card first_cards" >
+    <img src="./img/sheraton hotel.jpg" class="card-img-top" alt="hotel">
+    <div class="card-body">
+        <h4 class="card-title">Sheraton New Orleans Hotel</h4>
+        <p class="card-text">Brimming with style and grounded in our community, Sheraton New Orleans Hotel is the perfect home base for your downtown
+    .
+       </p>
+        <a href="https://www.marriott.com/en-us/hotels/msyis-sheraton-new-orleans-hotel/overview/?scid=f2ae0541-1279-4f24-b197-a979c79310b0" target="_blank" class="btn btn-dark btn_2" >For more information...</a>
+    </div>
+</div>
+
+
+<div class="card first_cards" >
+    <img src="./img/ace hotel.jpg" class="card-img-top" alt="ace hotel">
+    <div class="card-body">
+        <h4 class="card-title">Ace Hotel New Orleans</h4>
+        <p class="card-text">A stone is throw from the French Quarter, in the soul of the Deep South.</p>
+        <a href="https://acehotel.com/new-orleans/" target="_blank" class="btn btn-dark btn_3" >For more information...</a>
+    </div>
+</div>
+
+
+
+
+<div class="card first_cards" >
+    <img src="./img/the rich carlton.jpg" class="card-img-top" alt="hotel">
+    <div class="card-body">
+        <h4 class="card-title">The Ritz-Carlton, New Orleans</h4>
+        <p class="card-text">Within a historic beaux arts building in new orleans french quarter, a hotel offers luxury with a local touch.
+          </p>
+        <a href="https://www.ritzcarlton.com/en/hotels/new-orleans/rooms-suites" target="_blank" class="btn btn-dark btn_4">For more information...</a>
+    </div>
+</div>
+
+</div>
+
+<div id="id_cards2">
+
+<div class="card ">
+    <img src="./img/parking.webp" class="card-img-top" alt="parking area">
+    <div class="card-body second_c">
+        <h4 class="card-title">Premium Parking - P402</h4>
+        <p class="card-text">300 N Peters St, New Orleans, LA 70130</p>
+        <a href="https://www.premiumparking.com/P0402" target="_blank" class="btn btn-dark btn_8">For more information...</a>
+    </div>
+</div>
+
+
+<div class="card ">
+    <img src="./img/children museum.jpg" class="card-img-top" alt="museum">
+    <div class="card-body second_c">
+        <h4 class="card-title">Louisiana Children's Museum</h4>
+        <p class="card-text">When you make a children potential visible,wonderful things happen.
+            </p>
+        <a href="https://lcm.org/" target="_blank" class="btn btn-dark btn_5">For more information...</a>
+    </div>
+</div>
+
+
+<div class="card ">
+    <img src="./img/museum of death.jpg" class="card-img-top" alt="museum">
+    <div class="card-body second_c">
+        <h4 class="card-title">Museum of Death</h4>
+        <p class="card-text">The World Famous Museum of Death was founded in 1995 to fill the void in death education in the USA.
+            </p>
+        <a href="http://www.museumofdeath.net/" target="_blank" class="btn btn-dark btn_6">For more information...</a>
+    </div>
+</div>
+
+
+<div class="card">
+    <img src="./img/haunted museum.jpg" class="card-img-top" alt="haunted museum">
+    <div class="card-body second_c">
+        <h4 class="card-title">Haunted Museum</h4>
+        <p class="card-text">Join us for a spirited adventure through Zak Bagans The Haunted Museum in new orleans.
+            </p>
+        <a href="https://thehauntedmuseum.com/" target="_blank" class="btn btn-dark btn_7">For more information...</a>
+    </div>
+</div>
+
+
+</div>
+
+
+<!-- footer -->
+<footer class="bottom">
+<div class="find_us">
+    <a href="https://www.facebook.com/MardiGrasNewOrleans" target="_blank" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/MardiGrasNOLA" target="_blank" class="fa fa-twitter"></a>
+    <a href="https://www.instagram.com/mardigrasneworleans/" target="_blank" class="fa fa-instagram"></a>
+    <a href="https://www.youtube.com/channel/UCOrq1qF6dVDn9Do-wvbKh0Q" target="_blank" class="fa fa-youtube"></a>
+</div>
+
+<div class="footer-content">
+  
+   <div class="footer-bottom">
+    <p>copyrighat &copy; 2022 codeOpacity. designed by <span>Dolev B</span></p>
+   </div>
+
+</div>
+</footer>
+
+
+    
+</body>
+
+</html>
+
